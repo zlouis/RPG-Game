@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Calculator</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+<body>
+  <div class=bodyContainer>
+    <div class="row">
+      <div col-lg-8>
+          <div class=characterSelectionContainer>
+              <h1>  Character Select </h1>
+          </div>
+         <div class="row">
+             <div class="col-lg-2">
+                  <img class="characterSelectpic broly" src="assets/images/broly.jpg">
+             </div>
+             <div class="col-lg-2">
+                  <img class="characterSelectpic dante" src="assets/images/dante.jpg">
+             </div>
+             <div class="col-lg-2">
+                  <img class="characterSelectpic diablo" src="assets/images/diablo.jpg">
+             </div>
+                  <div class="col-lg-2">
+                  <img class="characterSelectpic sephiroth" src="assets/images/sephiroth.png">
+             </div>
+          </div>
+      </div>
+    </div> <!--end of row one character-->
+
+
+
+
+
+
+
+
+    <div class="userCharacter">
+      <h1>Selected character</h1>
+      <p class="userChar"></p>
+    </div>
+
+    <div class="computerCharacter">
+    <h1>Opponent</h1>
+    <p class="userOpponent"></p>
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+      var goku= {
+         hitPoints:200;
+      }
+
+
+      var diablo= {
+         hitPoints:250;
+      }
+
+
+      var sephiroth= {
+         hitPoints: 190;
+      }
+
+
+      var dante = {
+        hitPoints: 225;
+      }
+
+
+$('gokuPic').on('click', function() {
+
+  if (
+
+
+}
+
+
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
