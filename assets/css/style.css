@@ -1,0 +1,24 @@
+.characterSelectpic {
+	height: 170px;
+	width:170px;
+
+}
+
+
+html {
+	background-image: url(../images/wallpaper.jpg);
+	z-index:-10;
+
+
+}
+body {
+    background-image: url(../images/wallpaper.jpg);
+	z-index:-10;
+	color: white;
+	font-family: 'Cabin Sketch', cursive;
+
+}
+header {
+	text-align: center;
+	font-size: 40px;
+}
