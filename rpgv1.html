@@ -12,15 +12,19 @@
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link type="text/javascript" src="assets/javascript/game.js">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
 
 </head>
 <body>
 
-<script src="assets/javascript/game.js"> 
+<script src="assets/javascript/game1.js"> 
 
 
-	
+
+
+
 </script>
+<header> Heroes Brawl </header>
   <div class="bodyContainer">
     <div class="row">
       <div class="col-lg-8 ">
@@ -34,7 +38,7 @@
          <div class="row characterSelectionContainer"">
 	             <div class="col-lg-2  selectCharacters">
                     <div class="brolyCharacter character">
-	                  <img class="characterSelectpic broly" src="assets/images/broly.jpg">
+	                  <img class="characterSelectpic broly" src="assets/images/broly.gif">
 	                  <h4 >Health Points: <span class="brolyhealthpoints hp"></span></h4>
                     <h4 > name:<span class="brolyName name"></span></h4>
                     </div>
@@ -42,7 +46,7 @@
 	             </div>
              <div class="col-lg-2 selectCharacters">
                   <div class="danteCharacter character">
-                  <img class="characterSelectpic dante" src="assets/images/dante.jpg">
+                  <img class="characterSelectpic dante" src="assets/images/dante.gif">
                   <h4 >Health Points: <span class="dantehealthpoints hp"></span></h4>
                   <h4> name: <span class="danteName name"></span></h4>
                   </div>
@@ -50,14 +54,14 @@
              </div>
              <div class="col-lg-2  selectCharacters">
                   <div class="diabloCharacter character">
-                  <img class="characterSelectpic diablo" src="assets/images/diablo.jpg">
+                  <img class="characterSelectpic diablo" src="assets/images/diablo.gif">
                   <h4 >Health Points: <span class="diablohealthpoints hp"></span></h4>
                   <h4> name: <span class="diabloName name"></span></h4>
                   </div>
              </div>
                   <div class="col-lg-2  selectCharacters">
                   <div class="sephirothCharacter character">
-                  <img class="characterSelectpic sephiroth" src="assets/images/sephiroth.png">
+                  <img class="characterSelectpic sephiroth" src="assets/images/sephiroth.gif">
                   <h4 >Health Points: <span class="sephirothhealthpoints hp"></span></h4>
                   <h4> name: <span class="sephirothName name"></span></h4>
                   </div>
@@ -66,13 +70,13 @@
       </div>
     </div> <!--end of row one character-->
 
-    <div class="row">
+<!--     <div class="row">
     	<div class="col-lg-6">
     		<h1> Health: <span class="health"></span></h1>
        		<h1> Damage: <span class="attackNumber"></span></h1>
        		<h1> Enemy Damage: <span class="emattack"></span></h1>
        	</div>
-    </div>
+    </div> -->
 
 
 
@@ -81,33 +85,33 @@
 
 
 
-    <div>
-      <h1>Selected character</h1>
+    <div class="row">
+      <div class="col-lg-6">
+           <h1>Selected character</h1>
       <h2 class="userCharacter"></h2>
-      <p class="userChar"></p>
-      <p class="userCharacterhealth"></p>
-      <p class="userAttack"></p>
-
+     </div>
+     <div class="col-lg-6">
+        <div class="theOpponent">
+                <h1>Current Opponent</h1>
+                <p class="userOpponent"></p>
+        </div>
+      </div>
     </div>
-
-    <div class="computerCharacter">
-    <h1>Opponent</h1>
-    <div>
-    <p class="userOpponent"></p>
-    <div>
-    <p class="opponentcharacterhealth"></p>
-    <p class="opponentAttack"></p>
-    <p class="attackdisplay"></p>
-
-
+    <div class="row">
+      <div class="col-lg-6 opponentSelection">
+           <div class="opponentSelectionClick">
+           <h1> Opponents to fight </h1>
+           </div>
+          
+     </div>
     </div>
-  </div>
+   
 
-  <div>
+  <div class=>
   	    <button class="btn btn-danger btn-lg attackButton"><span class="glyphicon glyphicon-minus-sign"></span> attack</button>
   </div>
 
 
     
-</body>
+</body> 
 </html>
